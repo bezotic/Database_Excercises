@@ -7,7 +7,7 @@
 		artist varchar(200) NOT NULL,
 		name varchar(200) NOT NULL,
 		release_date date NOT NULL,
-		sales FLOAT NOT NULL, 
+		sales FLOAT(10,2) NOT NULL, 
 		genre varchar(200) NOT NULL,
 		PRIMARY KEY (id)
 
