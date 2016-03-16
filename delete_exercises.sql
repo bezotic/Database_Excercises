@@ -17,7 +17,7 @@ USE codeup_test_db;
 -- Commit your changes after each step and push to GitHub.
 
 
-SELECT name  AS 'albums released after 1991' FROM albums WHERE release_date > '1991-01-01';
+SELECT name  AS 'albums released after 1991',release_date FROM albums WHERE release_date > '1991-01-01';
 
 DELETE FROM albums WHERE release_date > '1991-01-01';
 
