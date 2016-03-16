@@ -76,9 +76,9 @@ WHERE first_name IN ('Irena', 'Vidya', 'Maya')
 ORDER BY first_name asc, last_name asc;
 
 
-SELECT first_name, last_name
+SELECT first_name, last_name, gender
 FROM employees
-WHERE first_name IN ('Irena', 'Vidya', 'Maya')
+WHERE first_name, gender IN ('Irena', 'Vidya', 'Maya')
 ORDER BY last_name , first_name;
 
 
